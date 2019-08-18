@@ -18,7 +18,7 @@ import br.com.xyinc.service.CoordenadasService;
 @RestController
 public class CoordenadasConller {
 
-	@Autowired CoordenadasService servico;
+	@Autowired private CoordenadasService servico;
 	
 	@RequestMapping( value = "/", method = RequestMethod.GET )
 	public ResponseEntity<String> index( ) {

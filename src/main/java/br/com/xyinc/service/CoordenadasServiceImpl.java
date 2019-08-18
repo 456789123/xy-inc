@@ -44,7 +44,6 @@ public class CoordenadasServiceImpl implements CoordenadasService {
 			if( distancia >= distanciaLugar ) {
 				listarLocaisProximos.add(obj);
 			}
-
 		});
 
 		return listarLocaisProximos;
