@@ -7,8 +7,8 @@ import br.com.xyinc.dto.GlobalPositioningSystemDTO;
 public interface CoordenadasService {
 
 
-	static final String APRESENTACAO = "Coodenadas Zup Online!!!";
-	static final String SUCCES = "Cadastro de lugar efetuado com sucesso.";
+	static final String APRESENTACAO = "Coordenadas Zup Online!!!";
+	static final String SUCCES = "Cadastro efetuado com sucesso.";
 
 
 
