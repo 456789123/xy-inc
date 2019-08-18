@@ -34,18 +34,18 @@ public class CoordenadasServiceImpl implements CoordenadasService {
 	@Override
 	public List<GlobalPositioningSystemDTO> listarLugares( int distancia, int x, int y ) {
 		List<GlobalPositioningSystemDTO> listarLocaisProximos = new ArrayList<>( );
-		int lugarProximo = 0;
 
-		for( GlobalPositioningSystemDTO obj: lista ) {
-			GlobalPositioningSystemDTO poiResult = new GlobalPositioningSystemDTO( );
-			poiResult.setCoodX( obj.getCoodX() - x);
-			poiResult.setCoodY( obj.getCoodY() - y);
+		lista.forEach( obj -> {
 
-			lugarProximo = (int) Math.sqrt( Math.pow(poiResult.getCoodX(), 2) + Math.pow(poiResult.getCoodY(), 2) );
-			if( distancia >= lugarProximo ) {
+			int xCood = obj.getCoodX() - x;
+			int yCood = obj.getCoodY() - y;
+			int distanciaLugar = (int) Math.sqrt( Math.pow(xCood, 2) + Math.pow(yCood, 2) );
+
+			if( distancia >= distanciaLugar ) {
 				listarLocaisProximos.add(obj);
 			}
-		}
+
+		});
 
 		return listarLocaisProximos;
 	}

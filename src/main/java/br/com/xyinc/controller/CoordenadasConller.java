@@ -30,7 +30,7 @@ public class CoordenadasConller {
 		return new ResponseEntity<List<GlobalPositioningSystemDTO>>(servico.listarLugares( ), HttpStatus.OK);
 	}
 	
-	@RequestMapping( value = "/listar-lugares-proximos/{distancia}/{x}/{y}", method = RequestMethod.GET )
+	@RequestMapping( value = "/listar-lugares/{distancia}/{x}/{y}", method = RequestMethod.GET )
 	public ResponseEntity<List<GlobalPositioningSystemDTO>> listarLugares( @PathVariable("distancia") int distancia,
                                                                                    @PathVariable("x") int x,
 			                                                                       @PathVariable("y") int y ) {
