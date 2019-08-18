@@ -5,33 +5,31 @@
 
 git clone https://github.com/456789123/xy-inc.git
 
-Após isso será:
+<p>Após isso será:</p>
 
 mvn clean install -DskipTests
 
-Para iniciar a aplicação, será com o seguinte comando:
+<p>Para iniciar a aplicação, será com o seguinte comando:</p>
 
 mvn spring-boot:run
 
-A aplicação está usando os seguintes serviços Rest:
-
-Para teste do serviço é:
-
+<p>A aplicação está usando os seguintes serviços Rest:</p>
+<p>Para teste do serviço é:</p>
 http://localhost:8080/
 
-Irá aparecer a mensagem “Coordenadas Zup Online!!!”.
+<p>Irá aparecer a mensagem “Coordenadas Zup Online!!!”.</p>
 
-Listar os lugares cadastrados:
+<p>Listar os lugares cadastrados:</p>
 
 http://localhost:8080/listar-lugares
 
-Listar os lugares próximos a ponto especifico:
+<p>Listar os lugares próximos a ponto especifico:</p>
 
 http://localhost:8080/listar-lugares/10/20/10
 
-Aqui está especificando "listar-lugares/{distamcia}/{coordenada x}/{coordenada y}".
+<p>Aqui está especificando "listar-lugares/{distamcia}/{coordenada x}/{coordenada y}".</p>
 
-E por fim, o cadastro do ponto que é dado via POST pela seguite URL e o objeto Json que será passado:
+<p>E por fim, o cadastro do ponto que é dado via POST pela seguite URL e o objeto Json que será passado:</p>
 
 http://localhost:8080/cadastrar-lugar
 
@@ -42,14 +40,12 @@ http://localhost:8080/cadastrar-lugar
 }
 
 
-Para a regra do desafio, fora proposto uma aplicação para auxiliar pessoas na localização de ponto de interesse (POIs) baseada em serviços, de forma a flexibilizar a integração, sendo estes:
+<p>Para a regra do desafio, fora proposto uma aplicação para auxiliar pessoas na localização de ponto de interesse (POIs) baseada em serviços, de forma a flexibilizar a integração, sendo estes:
 Serviço para cadastrar pontos de interesse com 3 atributos: Nome do POI, Coordenada X (inteiro não negativo) Coordenada Y (inteiro não negativo). Os POIs devem ser armazenados em uma base de dados.
-Serviço para listar todos os POIs cadastrados.
-Serviço para listar POIs por proximidade. Este serviço receberá uma coordenada X e uma c
-oordenada Y, especificando um ponto de referência, em como uma distância máxima (d-max) em metros. O serviço deverá retornar todos os POIs da base de dados que estejam a uma distância menor ou igual a d-max a partir do ponto de referência.
+Serviço para listar todos os POIs cadastrados.</p>
+<p>Serviço para listar POIs por proximidade. Este serviço receberá uma coordenada X e uma coordenada Y, especificando um ponto de referência, em como uma distância máxima (d-max) em metros. O serviço deverá retornar todos os POIs da base de dados que estejam a uma distância menor ou igual a d-max a partir do ponto de referência.</p>
+<p>Não foi levada e conta a circunferência da Terra neste desafio fazendo o calculo somente do plano cartesiano dado no plano reto( Calculo vetorial para as distâncias dos pontos ).</p>
 
-Não foi levada e conta a circunferência da Terra neste desafio fazendo o calculo somente do plano cartesiano dado no plano reto( Calculo vetorial para as distâncias dos pontos ).
-
-Fora usado a seguinte regra:
+<p>Fora usado a seguinte regra:</p>
 
 
