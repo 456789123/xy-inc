@@ -49,3 +49,5 @@ oordenada Y, especificando um ponto de referência, em como uma distância máxi
 Não foi levada e conta a circunferência da Terra neste desafio fazendo o calculo somente do plano cartesiano dado no plano reto( Calculo vetorial para as distâncias dos pontos ).
 
 Fora usado a seguinte regra:
+
+
