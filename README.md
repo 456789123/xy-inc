@@ -49,3 +49,19 @@ Serviço para listar todos os POIs cadastrados.</p>
 <p>Fora usado a seguinte regra:</p>
 
 
+![](https://s4.static.brasilescola.uol.com.br/img/2016/07/coordenadas-dos-pontos.jpg)
+
+<p>Para pegar a distância entre dois pontos fora usado o <b>Teorema de Pitágoras</b> conforme mostra abaixo:</p>
+
+![](https://s2.static.brasilescola.uol.com.br/img/2016/07/comprimento-da-planificacao.jpg)
+
+<p>E de acordo com o teorema...
+
+![](https://s3.static.brasilescola.uol.com.br/img/2016/07/ultimo-calculo-de-distancia.jpg)
+
+<p>Desse modo, pelo teorema de Pitágoras, temos:</p>
+
+![](https://s4.static.brasilescola.uol.com.br/img/2016/07/calculo-da-distancia-entre-dois-pontos-no-espaco.jpg)
+
+<p>Assim finalizando a demonstração, uma vez que foi encontrado o comprimento do segmento AB.</p>
+
