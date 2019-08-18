@@ -22,7 +22,6 @@ public class CoordenadasConller {
 	
 	@RequestMapping( value = "/", method = RequestMethod.GET )
 	public ResponseEntity<String> index( ) {
-		servico.preecherListaTeste();
 		return new ResponseEntity<String>(servico.index(), HttpStatus.OK);
 	}
 
@@ -32,7 +31,7 @@ public class CoordenadasConller {
 	}
 	
 	@RequestMapping( value = "/listar-lugares-proximos/{distancia}/{x}/{y}", method = RequestMethod.GET )
-	public ResponseEntity<List<GlobalPositioningSystemDTO>> listarLugaresProximos( @PathVariable("distancia") int distancia,
+	public ResponseEntity<List<GlobalPositioningSystemDTO>> listarLugares( @PathVariable("distancia") int distancia,
                                                                                    @PathVariable("x") int x,
 			                                                                       @PathVariable("y") int y ) {
 		return new ResponseEntity<List<GlobalPositioningSystemDTO>>(servico.listarLugares(distancia, x, y), HttpStatus.OK);
