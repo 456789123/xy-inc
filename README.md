@@ -14,14 +14,17 @@ mvn spring-boot:run
 A aplicação está usando os seguintes serviços Rest:
 
 Para teste do serviço é:
+
 http://localhost:8080/
 
 Irá aparecer a mensagem “Coordenadas Zup Online!!!”.
 
 Listar os lugares cadastrados:
+
 http://localhost:8080/listar-lugares
 
 Listar os lugares próximos a ponto especifico:
+
 http://localhost:8080/listar-lugares/10/20/10
 
 Aqui está especificando "listar-lugares/{distamcia}/{coordenada x}/{coordenada y}".
