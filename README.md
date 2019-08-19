@@ -41,6 +41,11 @@ http://localhost:8080/cadastrar-lugar
 }
 ```
 
+<p>Os dados estão sendo guardados estaticamente ou seja, não esta usando um banco de dados.</p>
+<p>As informaçoes já são iniciadas assim qua a aplicação inicia na classe XyIncApplication.java no método init() que está a anotação @PostConstruct</p>
+
+## A regra do desáfio
+
 <p>Para a regra do desafio, fora proposto uma aplicação para auxiliar pessoas na localização de ponto de interesse (POIs) baseada em serviços, de forma a flexibilizar a integração, sendo estes:
 Serviço para cadastrar pontos de interesse com 3 atributos: Nome do POI, Coordenada X (inteiro não negativo) Coordenada Y (inteiro não negativo). Os POIs devem ser armazenados em uma base de dados.
 Serviço para listar todos os POIs cadastrados.</p>
