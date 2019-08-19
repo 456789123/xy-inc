@@ -33,12 +33,13 @@ http://localhost:8080/listar-lugares/10/20/10
 
 http://localhost:8080/cadastrar-lugar
 
+```js
 {
     "nomeLugar": "Banco",
     "coodX": 18,
     "coodY": 16
 }
-
+```
 
 <p>Para a regra do desafio, fora proposto uma aplicação para auxiliar pessoas na localização de ponto de interesse (POIs) baseada em serviços, de forma a flexibilizar a integração, sendo estes:
 Serviço para cadastrar pontos de interesse com 3 atributos: Nome do POI, Coordenada X (inteiro não negativo) Coordenada Y (inteiro não negativo). Os POIs devem ser armazenados em uma base de dados.
@@ -63,5 +64,5 @@ Serviço para listar todos os POIs cadastrados.</p>
 
 ![](https://s4.static.brasilescola.uol.com.br/img/2016/07/calculo-da-distancia-entre-dois-pontos-no-espaco.jpg)
 
-<p>Assim finalizando a demonstração, uma vez que foi encontrado o comprimento do segmento AB.</p>
+<p>Assim finalizando a demonstração, uma vez que foi encontrado a distância entre os segmentos AB.</p>
 
