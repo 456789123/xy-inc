@@ -17,6 +17,7 @@ mvn spring-boot:run
 <p>Para teste do serviço é:</p>
 http://localhost:8080/
 
+
 <p>Irá aparecer a mensagem “Coordenadas Zup Online!!!”.</p>
 
 <p>Listar os lugares cadastrados:</p>
@@ -28,7 +29,6 @@ http://localhost:8080/listar-lugares
 http://localhost:8080/listar-lugares/10/20/10
 
 <p>Aqui está especificando "listar-lugares/{distamcia}/{coordenada x}/{coordenada y}".</p>
-
 <p>E por fim, o cadastro do ponto que é dado via POST pela seguite URL e o objeto Json que será passado:</p>
 
 http://localhost:8080/cadastrar-lugar
