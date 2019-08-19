@@ -1,6 +1,6 @@
 # XY Inc Zup
 
-<p>O desafio fora feito com a linguagem Java usando o framewok Spring Boot e testes está usando o Junit com Mockito.</p>
+<p>O desafio fora feito com a linguagem Java usando o framewok Spring Boot e para os testes unitários está usando o Junit com Mockito.</p>
 <p>Depois que baixar a plicação no repositório Git com os comando abaixo, usará o comando Maven para baixar as libs de dependência que serão usadas.</p>
 
 git clone https://github.com/456789123/xy-inc.git
