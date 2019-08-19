@@ -16,7 +16,7 @@ import br.com.xyinc.service.CoordenadasService;
 
 
 @RestController
-public class CoordenadasConller {
+public class CoordenadasController {
 
 	@Autowired private CoordenadasService servico;
 	
